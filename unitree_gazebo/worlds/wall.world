@@ -3,7 +3,7 @@
     <physics name='default_physics' default='0' type='ode'>
       <max_step_size>0.0001</max_step_size>
       <real_time_factor>1</real_time_factor>
-      <real_time_update_rate>10000</real_time_update_rate>
+      <real_time_update_rate>1001</real_time_update_rate>
       <ode>
         <solver>
           <type>quick</type>
@@ -197,7 +197,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='floor'>
-          <pose frame=''>2.05 0 0.045 0 -0 0</pose>
+          <pose frame=''>2.065 0 0.045 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
